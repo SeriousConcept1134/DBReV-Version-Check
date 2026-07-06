@@ -1,7 +1,14 @@
 {
-    "latest_version": "1.2.3",
-    "nexus_updated_time": "2026-07-06T23:40:46.000+00:00",
+    "latest_version": "1.2.4",
+    "nexus_updated_time": "2026-07-06T23:55:11.000+00:00",
     "changelog": [
+        {
+            "version": "1.2.4",
+            "date": "2026-07-06",
+            "changes": [
+                "Fixed a bug that prevented OmniVoice server from starting for the first time"
+            ]
+        },
         {
             "version": "1.2.3",
             "date": "2026-07-06",
