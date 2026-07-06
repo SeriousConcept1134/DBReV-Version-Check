@@ -1,7 +1,14 @@
 {
-    "latest_version": "1.2.2",
-    "nexus_updated_time": "2026-07-06T19:31:07.000+00:00",
+    "latest_version": "1.2.3",
+    "nexus_updated_time": "2026-07-06T23:40:46.000+00:00",
     "changelog": [
+        {
+            "version": "1.2.3",
+            "date": "2026-07-06",
+            "changes": [
+                "Added timeout, retry, and recovery logic to prevent a batch TTS generation process from getting stuck if the server did not return an output for a particular line"
+            ]
+        },
         {
             "version": "1.2.2",
             "date": "2026-07-06",
