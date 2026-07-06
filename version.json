@@ -1,7 +1,15 @@
 {
-    "latest_version": "1.2",
-    "nexus_updated_time": "2026-07-06T18:35:13.000+00:00",
+    "latest_version": "1.2.1",
+    "nexus_updated_time": "2026-07-06T18:51:38.000+00:00",
     "changelog": [
+        {
+            "version": "1.2.1",
+            "date": "2026-07-06",
+            "changes": [
+                "Fixed the app title bar displaying incorrect app version",
+                "Updated the installer to detect an existing setup and update it in-place whilst preserving existing settings/sessions"
+            ]
+        },
         {
             "version": "1.2",
             "date": "2026-07-06",
