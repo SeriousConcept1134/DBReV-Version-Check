@@ -1,0 +1,13 @@
+{
+    "latest_version": "1.1.0",
+    "nexus_updated_time": "2026-07-06T00:00:00Z",
+    "changelog": [
+        {
+            "version": "1.1.0",
+            "date": "2026-07-06",
+            "changes": [
+                "Initial changelog-tracked release."
+            ]
+        }
+    ]
+}
