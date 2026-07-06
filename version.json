@@ -1,7 +1,14 @@
 {
-    "latest_version": "1.2.1",
-    "nexus_updated_time": "2026-07-06T18:51:38.000+00:00",
+    "latest_version": "1.2.2",
+    "nexus_updated_time": "2026-07-06T19:31:07.000+00:00",
     "changelog": [
+        {
+            "version": "1.2.2",
+            "date": "2026-07-06",
+            "changes": [
+                "Improved installer workflow when updating from an existing version"
+            ]
+        },
         {
             "version": "1.2.1",
             "date": "2026-07-06",
