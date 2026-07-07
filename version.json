@@ -1,7 +1,19 @@
 {
-    "latest_version": "1.2.4",
-    "nexus_updated_time": "2026-07-06T23:55:11.000+00:00",
+    "latest_version": "1.3",
+    "nexus_updated_time": "2026-07-07T22:00:07.000+00:00",
     "changelog": [
+        {
+            "version": "1.3",
+            "date": "2026-07-07",
+            "changes": [
+                "Added support for non-English languages (including Chinese, Japanese etc.)",
+                "Added trim ability using faster-whisper (AI based)",
+                "Improved ElevenLabs integration",
+                "Improved UI icons across the app",
+                "Improved the table structure and design",
+                "Various bug fixes"
+            ]
+        },
         {
             "version": "1.2.4",
             "date": "2026-07-06",
