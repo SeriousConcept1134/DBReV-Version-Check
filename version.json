@@ -1,7 +1,14 @@
 {
-    "latest_version": "1.3.1",
-    "nexus_updated_time": "2026-07-08T10:53:04.000+00:00",
+    "latest_version": "1.3.2",
+    "nexus_updated_time": "2026-07-08T12:19:55.000+00:00",
     "changelog": [
+        {
+            "version": "1.3.2",
+            "date": "2026-07-08",
+            "changes": [
+                "Standardized support for both TTS and Lip-Sync generation for the following non-English languages: Japanese, Korean, French, German, Italian, Spanish, Chinese, and Russian."
+            ]
+        },
         {
             "version": "1.3.1",
             "date": "2026-07-08",
