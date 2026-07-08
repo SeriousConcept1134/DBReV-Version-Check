@@ -1,7 +1,15 @@
 {
-    "latest_version": "1.3.2",
-    "nexus_updated_time": "2026-07-08T12:19:55.000+00:00",
+    "latest_version": "1.3.3",
+    "nexus_updated_time": "2026-07-08T13:04:15.000+00:00",
     "changelog": [
+        {
+            "version": "1.3.3",
+            "date": "2026-07-08",
+            "changes": [
+                "Fixed a bug where applying custom TTS settings for a hard replaced line would incorrectly change its color to teal (which indicates user custom line edits). Instead it correctly keeps its green color, indicating a hard replaced line",
+                "Fixed a bug where a Trim on a single line would also automatically apply to other lines if they were previously manually regenerated."
+            ]
+        },
         {
             "version": "1.3.2",
             "date": "2026-07-08",
