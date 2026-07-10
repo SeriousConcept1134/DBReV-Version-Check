@@ -7,7 +7,7 @@
             "date": "2026-07-10",
             "changes": [
                 "Moved the \"Custom TTS Settings\" option to the \"Phase 1: TTS Gen\" card",
-                "Added an optional \"Cutoff Guard\" feature to mitigate an issue with OmniVoice sometimes cutting off the last word in the generated audio (utilizing Faster-Whisper)",
+                "Added an optional \"Cutoff Guard\" feature to mitigate an issue with OmniVoice sometimes cutting off part of the last word in the generated audio (utilizing Faster-Whisper)",
                 "Added the ability to create custom Groups for voice lines and implemented a tabbed layout for them when present (any batch actions are now scoped per the active group)",
                 "Added a right-click context menu for easy management of groups and other batch actions (works for both single and multi-line selections)"
             ]
