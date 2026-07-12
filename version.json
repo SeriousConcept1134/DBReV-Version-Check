@@ -7,7 +7,7 @@
             "date": "2026-07-11",
             "changes": [
                 "Fixed parallel CPU execution for LIP/FUZ generation: the app will now correctly use all the CPU cores set under the settings/general section when generating LIP/FUZ files, significantly increasing generation speed.",
-                "Fixed a session data corruption bug which would result in project data loss if the app was closed unexpectedly mid operation. This is an important \"under the hood\" update and it's recommended to get is as soon as possible."
+                "Fixed a session data corruption bug which would result in project data loss if the app was closed unexpectedly mid operation. This is an important \"under the hood\" update and it's recommended to get it as soon as possible."
             ]
         },
         {
