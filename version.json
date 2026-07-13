@@ -1,7 +1,16 @@
 {
-    "latest_version": "1.5",
-    "nexus_updated_time": "2026-07-13T21:00:24.000+00:00",
+    "latest_version": "1.5.1",
+    "nexus_updated_time": "2026-07-13T23:19:14.000+00:00",
     "changelog": [
+        {
+            "version": "1.5.1",
+            "date": "2026-07-13",
+            "changes": [
+                "Fixed a bug where adding variations to a line that's inside a group made the variations not appear",
+                "Added an ETA countdown timer for when generating batch TTS audio",
+                "Added batch controls to Play, Trim, Regen multiple selected lines in the table"
+            ]
+        },
         {
             "version": "1.5",
             "date": "2026-07-13",
