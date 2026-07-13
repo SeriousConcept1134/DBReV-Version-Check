@@ -1,7 +1,21 @@
 {
-    "latest_version": "1.4.1",
-    "nexus_updated_time": "2026-07-11T14:24:28.000+00:00",
+    "latest_version": "1.5",
+    "nexus_updated_time": "2026-07-13T21:00:24.000+00:00",
     "changelog": [
+        {
+            "version": "1.5",
+            "date": "2026-07-13",
+            "changes": [
+                "Introducing dialogue templates: allow you to create reusable templates from various dialogue sources which are saved inside the app, reducing the dependence on external dialogue sources",
+                "Ability to Export/Import dialogue templates, sharing them with others (including custom edits, TTS settings etc.)",
+                "Added a dialogue search wizard: allows you to simply select a folder, and it will automatically find all .esp/.esm plugins containing dialogue lines, allowing you to import some or all of them at once",
+                "Ability to easily create a template from any existing session",
+                "Improved the app's ability to work with hundreds of plugins inside a single session",
+                "Added a second warning confirmation before removing a dialogue source which already has TTS generated for it",
+                "Various UI changes and improvements",
+                "Various under the hood improvements and bug fixes"
+            ]
+        },
         {
             "version": "1.4.1",
             "date": "2026-07-11",
