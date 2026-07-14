@@ -1,7 +1,15 @@
 {
-    "latest_version": "1.5.3",
-    "nexus_updated_time": "2026-07-14T12:37:42.000+00:00",
+    "latest_version": "1.5.4",
+    "nexus_updated_time": "2026-07-14T17:53:27.000+00:00",
     "changelog": [
+        {
+            "version": "1.5.4",
+            "date": "2026-07-14",
+            "changes": [
+                "Implemented a new feature (\"Batch Generation\") which **significantly** increases OmniVoice TTS generation speed by around x5-10!",
+                "You can find it under the \"Phase 1\" card custom TTS settings (it's off by default)"
+            ]
+        },
         {
             "version": "1.5.3",
             "date": "2026-07-14",
