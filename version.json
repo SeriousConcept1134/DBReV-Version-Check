@@ -1,7 +1,16 @@
 {
-    "latest_version": "1.5.2",
-    "nexus_updated_time": "2026-07-14T11:27:42.000+00:00",
+    "latest_version": "1.5.3",
+    "nexus_updated_time": "2026-07-14T12:37:42.000+00:00",
     "changelog": [
+        {
+            "version": "1.5.3",
+            "date": "2026-07-14",
+            "changes": [
+                "Added the ability to configure and create a FOMOD installer when creating the final mod archive (with full compatibility with BSA archiving as well)",
+                "Added an additional 500 and 1000 options to the \"Items per page\" dropdown menu, allowing you to see more lines per page, and also made the choice persistent between app sessions",
+                "Added the ability to interrupt a batch playback process by clicking the individual playback button next to a specific line"
+            ]
+        },
         {
             "version": "1.5.2",
             "date": "2026-07-14",
