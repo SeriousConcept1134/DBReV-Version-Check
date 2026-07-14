@@ -1,7 +1,14 @@
 {
-    "latest_version": "1.5.1",
-    "nexus_updated_time": "2026-07-13T23:19:14.000+00:00",
+    "latest_version": "1.5.2",
+    "nexus_updated_time": "2026-07-14T11:27:42.000+00:00",
     "changelog": [
+        {
+            "version": "1.5.2",
+            "date": "2026-07-14",
+            "changes": [
+                "Fixed an issue where a batch LIP generation job would sometimes error out due to file lock conflicts when using multiple CPU cores for faster parallel generation (the more CPU cores used the more likely this could have happened)"
+            ]
+        },
         {
             "version": "1.5.1",
             "date": "2026-07-13",
