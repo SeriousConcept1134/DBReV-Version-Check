@@ -1,7 +1,19 @@
 {
-    "latest_version": "1.5.4",
-    "nexus_updated_time": "2026-07-14T17:53:27.000+00:00",
+    "latest_version": "1.5.5",
+    "nexus_updated_time": "2026-07-15T19:15:27.000+00:00",
     "changelog": [
+        {
+            "version": "1.5.5",
+            "date": "2026-07-15",
+            "changes": [
+                "Improved duplicate-line detection so it now catches duplicates across all mods and combines them into one line (rather than just combining duplicate lines from the same mod). This simplifies the creation process, and saves on TTS generation time",
+                "Fixed a multi-second freeze that happened every time you edited a line or variation",
+                "Fixed the list scrolling back to the top when adding or removing variations",
+                "Added a \"Show Errors\" option to the Filter Results dropdown to quickly find lines with errors",
+                "Fixed UI glitch where the TTS API status widget was constantly resizing during certain batch operations (e.g. FUZ packing)",
+                "Set the new OmniVoice batch generation feature to skip over lines with custom TTS when creating the batch payload, then returning and re-generating them individually right after"
+            ]
+        },
         {
             "version": "1.5.4",
             "date": "2026-07-14",
