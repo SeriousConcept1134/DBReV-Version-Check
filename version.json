@@ -1,7 +1,19 @@
 {
-    "latest_version": "1.5.5",
-    "nexus_updated_time": "2026-07-15T19:15:27.000+00:00",
+    "latest_version": "1.5.6",
+    "nexus_updated_time": "2026-07-20T14:22:59.000+00:00",
     "changelog": [
+        {
+            "version": "1.5.6",
+            "date": "2026-07-20",
+            "changes": [
+                "Significantly increased the accuracy of whisper trim so it more accurately recognizes the true boundaries of each word, and will no longer accidentally cut off part of a word belonging to the dialogue",
+                "Fixed an issue causing the TTS generation to get stuck for some users when using the batch generation feature for OmniVoice",
+                "Improved the accuracy of batch generation, and added a self correcting mechanism to automatically regenerate lines individually if they were part of a batch attempt that had mangled TTS speech (can rarely happen on some problematic lines)",
+                "Improved the accuracy of the Cutoff Guard feature to reduce the instances of it accidentally leaving in the throwaway word, which would sometimes happen",
+                "Fixed the search function's performance issues. It's now responsive again, and will not freeze the app while searching on sessions which have a large number of lines",
+                "Additional under the hood improvements and minor bug fixes"
+            ]
+        },
         {
             "version": "1.5.5",
             "date": "2026-07-15",
