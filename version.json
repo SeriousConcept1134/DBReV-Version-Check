@@ -1,7 +1,15 @@
 {
-    "latest_version": "1.5.6",
-    "nexus_updated_time": "2026-07-20T14:22:59.000+00:00",
+    "latest_version": "1.5.7",
+    "nexus_updated_time": "2026-07-24T22:57:08.000+00:00",
     "changelog": [
+        {
+            "version": "1.5.7",
+            "date": "2026-07-24",
+            "changes": [
+                "Hotfix: resolved an issue which was introduced in the previous app version (1.5.6) breaking TTS generation when using ElevenLabs.io (OmniVoice was not affected)",
+                "It's recommended to get this upgrade ASAP if you're using ElevenLabs.io"
+            ]
+        },
         {
             "version": "1.5.6",
             "date": "2026-07-20",
