@@ -9,6 +9,7 @@
                 "Further optimized OmniVoice's VRAM usage",
                 "The app will now automatically choose whether to run its ASR (whisper) model on either GPU or CPU, depending on the user's VRAM availability (it only needs to run once on server startup)",
                 "The ASR model will now ALWAYS get unloaded from memory after it finishes its ONE TIME run on server startup, so that all available VRAM can be dedicated to running the TTS model",
+                "This is not to be confused with the app's own \"Whisper Trim\" model - OmniVoice runs its own internal ASR whisper model for transcribing the cloned voices' audio samples",
                 "Added a new setting associated with the above changes called \"Whisper Device\" (under Settings/OmniVoice), which defaults to \"auto\", but can also be explicitly set to always use CPU or GPU",
                 "Updated the in-app help documentation about the new \"Whisper Device\" setting",
                 "Same as before, once all cloned voices are transcribed, their transcriptions are now saved permanently, and the ASR model won't run on startup at all UNLESS there's voices with samples over 20 seconds, which will force it to run on startup every time"
