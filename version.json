@@ -1,7 +1,16 @@
 {
-    "latest_version": "1.6",
-    "nexus_updated_time": "2026-07-29T11:56:35.000+00:00",
+    "latest_version": "1.6.1",
+    "nexus_updated_time": "2026-07-29T15:48:16.000+00:00",
     "changelog": [
+        {
+            "version": "1.6.1",
+            "date": "2026-07-29",
+            "changes": [
+                "Added Simplified Chinese translation to the app installer",
+                "The installer will now prompt for language selection at startup",
+                "If the user selects Chinese, then that selection will carry over to the app language itself as well"
+            ]
+        },
         {
             "version": "1.6",
             "date": "2026-07-29",
