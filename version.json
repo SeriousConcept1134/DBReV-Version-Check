@@ -1,7 +1,18 @@
 {
-    "latest_version": "1.5.9",
-    "nexus_updated_time": "2026-07-28T09:51:57.000+00:00",
+    "latest_version": "1.6",
+    "nexus_updated_time": "2026-07-29T11:56:35.000+00:00",
     "changelog": [
+        {
+            "version": "1.6",
+            "date": "2026-07-29",
+            "changes": [
+                "Implemented a locale framework which allows for creating translations to other languages for the app's interface",
+                "Added two new options under `Settings\\General`: App language selection, and an \"Open translations folder\" button",
+                "Added a Simplified Chinese app language option, covering most of the app's elements (credit to user \"zhuabaobao123\" for their translation efforts)",
+                "Added a `README.md` under the `assets\\translations` folder with instructions on how to create new translations (pressing the \"Open translations folder\" button opens it directly)",
+                "No changes to app's functionality itself other than the above"
+            ]
+        },
         {
             "version": "1.5.9",
             "date": "2026-07-28",
