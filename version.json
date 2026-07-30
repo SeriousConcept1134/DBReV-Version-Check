@@ -1,7 +1,16 @@
 {
-    "latest_version": "1.6.1",
-    "nexus_updated_time": "2026-07-29T15:48:16.000+00:00",
+    "latest_version": "1.6.2",
+    "nexus_updated_time": "2026-07-30T09:42:22.000+00:00",
     "changelog": [
+        {
+            "version": "1.6.2",
+            "date": "2026-07-30",
+            "changes": [
+                "Hotfix: Resolved a bug which would make the app silently crash and unable to save its settings when using a locale translation file (e.g. \"zh_CN.json\")",
+                "Everyone using the app in English were not affected by this bug",
+                "Additionally, slimmed down the installer size by cleaning up old files which were inadvertently being shipped with the app (it's now smaller by about ~1.9MB)"
+            ]
+        },
         {
             "version": "1.6.1",
             "date": "2026-07-29",
