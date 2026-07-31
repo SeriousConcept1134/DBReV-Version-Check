@@ -1,7 +1,19 @@
 {
-    "latest_version": "1.6.2",
-    "nexus_updated_time": "2026-07-30T09:42:22.000+00:00",
+    "latest_version": "1.6.3",
+    "nexus_updated_time": "2026-07-31T19:55:37.000+00:00",
     "changelog": [
+        {
+            "version": "1.6.3",
+            "date": "2026-07-31",
+            "changes": [
+                "Fixed a minor bug in the app's dialogue extraction mechanism which was missing a very small amount of lines, preventing them from being extracted (e.g. `DLC1SurgeryRumorTopic` with FormID `0000701C`, which the game engine dynamically changes to a real line saying \"Heard any rumors lately?\", was previously being dropped as an invalid line)",
+                "It's recommended to re-extract all your dialogues to catch some of these elusive lines (adds ~17 lines from Skyrim+DLCs, and possibly other mods)",
+                "Added OmniVoice's setup files to now be bundled with the app (no longer needing to pull them from GitHub)",
+                "Added an automated installer for OmniVoice under Settings/OmniVoice TTS which installs it from start to finish (no manual terminal commands required, no need to preinstall Git or uv anymore)",
+                "Users who prefer to install OmniVoice manually, or point the app to a preexisting installation, can still do so",
+                "Added automatic mirrors selection for sourcing the files required for the OmniVoice or Whisper Trim installations, allowing users from countries like China, which has limited access to the official sources (huggingface.co / pypi.org) to complete the installations successfully"
+            ]
+        },
         {
             "version": "1.6.2",
             "date": "2026-07-30",
