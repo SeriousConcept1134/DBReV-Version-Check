@@ -1,7 +1,15 @@
 {
-    "latest_version": "1.6.3",
-    "nexus_updated_time": "2026-07-31T19:55:37.000+00:00",
+    "latest_version": "1.6.4",
+    "nexus_updated_time": "2026-07-31T23:00:51.000+00:00",
     "changelog": [
+        {
+            "version": "1.6.4",
+            "date": "2026-07-31",
+            "changes": [
+                "Hotfix: Resolved a bug with the new automated OmniVoice installer which wasn't properly installing `uv` when no system `uv` was available",
+                "Added explicit messages to the voices selection menu for OmniVoice describing the exact issue when voices weren't available (e.g. server is down, no voices were added etc.), instead of just presenting an empty list that was not selectable"
+            ]
+        },
         {
             "version": "1.6.3",
             "date": "2026-07-31",
