@@ -1,7 +1,17 @@
 {
-    "latest_version": "1.6.4",
-    "nexus_updated_time": "2026-07-31T23:00:51.000+00:00",
+    "latest_version": "1.6.5",
+    "nexus_updated_time": "2026-08-01T19:03:39.000+00:00",
     "changelog": [
+        {
+            "version": "1.6.5",
+            "date": "2026-08-01",
+            "changes": [
+                "Fixed an issue with the new OmniVoice automated installer, where it would report the installation as successful even if there was actually a problem",
+                "Added more detailed error descriptions if a problem occurred during the OmniVoice auto-installer, so it's easier to diagnose",
+                "The auto-installer now creates the folders `models\\omnivoice\\` under the `OmniVoice` root installation folder, which can be used for people who need to manually copy the TTS model weights files there when they cannot download them from the usual online sources, plus added `readme.txt` inside that folder path which explains it in detail",
+                "Enhanced the app installer to now use the more modern Windows folder lookup dialogue rather than the old legacy one"
+            ]
+        },
         {
             "version": "1.6.4",
             "date": "2026-07-31",
