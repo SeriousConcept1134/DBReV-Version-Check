@@ -1,7 +1,15 @@
 {
-    "latest_version": "1.7",
-    "nexus_updated_time": "2026-08-08T16:46:35.000+00:00",
+    "latest_version": "1.7.1",
+    "nexus_updated_time": "2026-08-08T19:34:27.000+00:00",
     "changelog": [
+        {
+            "version": "1.7.1",
+            "date": "2026-08-08",
+            "changes": [
+                "Resolved an issue which was causing Japanese TTS to be misidentified as Chinese by the Whisper model.",
+                "This prevented features like Trim or Batch Generation from working correctly with Japanese. Now fixed."
+            ]
+        },
         {
             "version": "1.7",
             "date": "2026-08-08",
