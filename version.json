@@ -6,7 +6,7 @@
             "version": "1.7",
             "date": "2026-08-08",
             "changes": [
-                "This update carries several important improvements:",
+                "This update carries several major improvements:",
                 "Improved the OmniVoice batch generation feature to be significantly more accurate, especially with multiple short input lines (e.g. lines containing only one word). This used to cause poor separation of the individual words after generation, and often times would require to regenerate some of them due to poor results, but not anymore.",
                 "Fixed a couple of bugs which were affecting the Whisper-Trim feature's accuracy. It will now trim audio artifacts from the start/end of the generated TTS lines with a much higher rate of success, without affecting the actual words belonging to the line.",
                 "When creating a mod archive, you can now select which plugins you want to include in it, and which you prefer to keep out. Useful when some plugins are fully voiced, while others are still a work in progress.",
