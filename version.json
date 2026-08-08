@@ -13,7 +13,8 @@
                 "When importing dialogue text from plugins which contain localizations via `.strings` files (mostly applies to the vanilla `.esm` plugins), you can now select which language you want to extract (from the ones available) instead of it always defaulting to English.",
                 "Additionally added an option in the app's Settings/General section to set the preferred language for extracting dialogue text from plugins when applicable.",
                 "Corrected a bug in the way `.7z` archives were created which could affect NexusMods' ability to show the file content preview for the archive (this was purely cosmetic and did not affect the created files' functionality).",
-                "Updated the help documentation to explain the new language selection options for extracting dialogue text from localized plugins."
+                "Updated the help documentation to explain the new language selection options for extracting dialogue text from localized plugins.",
+                "Updated the `assets/translations/en.json` localization template file with translation keys for the newly added options."
             ]
         },
         {
